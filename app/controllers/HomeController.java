@@ -15,6 +15,9 @@ public class HomeController extends Controller {
     public Result products() {
         return ok(products.render());
     }
+    public Result ola() {
+        return ok(ola.render());
+    }
 
 }
 
